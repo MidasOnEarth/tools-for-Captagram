@@ -1,0 +1,14 @@
+// brany quote
+var x=document.getElementsByClassName('clearfix')
+var y=document.getElementsByClassName('kw-box')
+
+for(var i=0;i<x.length;i++)
+    console.log(x[i].innerText+'\n'+y[i].innerText+'\n---');i++;
+	
+	
+// xyz
+var x=document.getElementsByClassName('clearfix')
+var y=document.getElementsByClassName('kw-box')
+
+for(var i=0;i<x.length;i++)
+    console.log(x[i].innerText+'\n---');i++;
