@@ -7,8 +7,8 @@ import os
 os.system('cls')
 
 ########################################
-ID=494	# last ID + 1 
-MAIN_TAG='happiness'
+ID=1008	# last ID + 1 
+MAIN_TAG='life'
 ########################################
 
 f=open(MAIN_TAG+'.log','r')
