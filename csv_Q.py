@@ -7,11 +7,11 @@ import os
 os.system('cls')
 
 ########################################
-ID=1156	# last ID + 1 
-MAIN_TAG='love'
+ID=2143	# last ID + 1 
+MAIN_TAG='sad'
 ########################################
 
-f=open(MAIN_TAG+'.log','r')
+f=open(MAIN_TAG+'.log','r',encoding='utf-8')
 ff=f.readlines()
 pp = pprint.PrettyPrinter(indent=4)
 # pp.pprint(ff)
@@ -37,7 +37,7 @@ for x in ff:
 pp.pprint(captions)
 
 
-f2=open(MAIN_TAG+'.csv','a+')
+f2=open(MAIN_TAG+'.csv','a+',encoding='utf-8')
 
 for x in captions:
 
